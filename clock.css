@@ -1,0 +1,31 @@
+  body, .alarm, .content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .alarm{
+	background-color:rebeccapurple;
+	height: auto;
+	width: 600px;
+	margin-top: 15%;
+	text-align:center;
+	padding: 30px 30px 38px;
+	border-radius: 10px;
+	flex-direction: column;
+	box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  .alarm h1{
+	font-size: 38px;
+	font-weight: 500;
+	margin: 30px 0;
+  }
+  .alarm .content{
+	width: 35%;
+	justify-content: space-between;
+  }
+  .alarm .bt{
+	margin-top: 5%;
+	
+	
+  }
+  
